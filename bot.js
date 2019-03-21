@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "W";
-const adminprefix = "$";
-const developers = ["حط ايديك هنا"]//Toxic Codes
+var prefix = "!";
+const adminprefix = "!";
+const developers = ["490101053778296860"]//Toxic Codes
 client.on('message', message => {//Toxic Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Toxic Codes
       if (!developers.includes(message.author.id)) return;
